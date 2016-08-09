@@ -1,0 +1,184 @@
+ul,
+ul li {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+ul > li {}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-size: 13px;*/
+  font-family: helvetica;
+  font-size: 11px;
+  color: #363636;
+  padding: 0.10in 0.15in 0in 0.15in;
+}
+
+@media print {
+  body,
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+h1 {
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+h1,
+h3,
+strong,
+.pill {
+  font-style: italic;
+}
+
+section {
+  border-bottom: 1px solid #DFDFDF;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+section:last-of-type {
+  border: none;
+}
+
+
+article {
+  margin-bottom: 3px;
+}
+
+article:last-child {
+  margin-bottom: 0;
+}
+
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  line-height: 14px;
+  margin: 0;
+}
+
+.personal {
+  margin: 3px 0;
+}
+
+.date {
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.personal {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.location {
+  float: right;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.emph {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bullet-list > li {
+  list-style-type: disc;
+  padding-left: 0;
+  margin-left: 30px;
+}
+
+.bullet-list.list-bordered {
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.bullet-list.list-bordered.last {
+  border: none;
+  padding-bottom: 0
+}
+
+.l-left {
+  float: left
+}
+
+.subpar {
+  margin-top: 7px;
+}
+
+
+/*.pill {
+  color: black;
+  text-decoration: underline;
+  color: blue;
+}*/
+
+.pill {
+  font-weight: normal;
+  font-family: 'courier';
+  letter-spacing: -0.5px;
+  text-decoration: none;
+  color: black;
+  padding-top: 0px;
+  background-color: #F3F3F3;
+  border-radius: 12px;
+  line-height: 0;
+  margin: 0;
+  vertical-align: middle;
+  border: 1px solid #E4E4E4;
+  font-size: 9.5px;
+  box-sizing: border-box;
+  padding: 2px 7px;
+}
+
+.pill.adjust {
+  position: relative;
+  top: 0px;
+}
+
+@media print {
+  .pill {
+    background-color: #F3F3F3 !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
